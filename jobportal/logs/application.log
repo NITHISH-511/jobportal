@@ -1,0 +1,91 @@
+2025-03-31T16:35:52.845+05:30  INFO 16884 --- [jobportal] [restartedMain] com.job.jobportal.JobportalApplication   : Starting JobportalApplication using Java 22.0.2 with PID 16884 (D:\College\REST API\jobportal\target\classes started by NITHISH in D:\College\REST API\jobportal)
+2025-03-31T16:35:52.860+05:30  INFO 16884 --- [jobportal] [restartedMain] com.job.jobportal.JobportalApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-03-31T16:35:52.943+05:30  INFO 16884 --- [jobportal] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-31T16:35:52.943+05:30  INFO 16884 --- [jobportal] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-31T16:35:54.078+05:30  INFO 16884 --- [jobportal] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-31T16:35:54.164+05:30  INFO 16884 --- [jobportal] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 5 JPA repository interfaces.
+2025-03-31T16:35:55.396+05:30  INFO 16884 --- [jobportal] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-31T16:35:55.420+05:30  INFO 16884 --- [jobportal] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-31T16:35:55.420+05:30  INFO 16884 --- [jobportal] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-03-31T16:35:55.490+05:30  INFO 16884 --- [jobportal] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-31T16:35:55.503+05:30  INFO 16884 --- [jobportal] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2547 ms
+2025-03-31T16:35:55.794+05:30  INFO 16884 --- [jobportal] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-31T16:35:55.914+05:30  INFO 16884 --- [jobportal] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-03-31T16:35:55.958+05:30  INFO 16884 --- [jobportal] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-31T16:35:56.356+05:30  INFO 16884 --- [jobportal] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-31T16:35:56.406+05:30  INFO 16884 --- [jobportal] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-31T16:35:56.856+05:30  INFO 16884 --- [jobportal] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58a3e78f
+2025-03-31T16:35:56.856+05:30  INFO 16884 --- [jobportal] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-31T16:35:56.937+05:30  WARN 16884 --- [jobportal] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-31T16:35:56.937+05:30  WARN 16884 --- [jobportal] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-31T16:35:58.222+05:30  INFO 16884 --- [jobportal] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-31T16:35:58.406+05:30  INFO 16884 --- [jobportal] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-31T16:35:59.125+05:30  INFO 16884 --- [jobportal] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-03-31T16:36:00.577+05:30  WARN 16884 --- [jobportal] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-31T16:36:00.843+05:30 DEBUG 16884 --- [jobportal] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 35 mappings in 'requestMappingHandlerMapping'
+2025-03-31T16:36:00.960+05:30 DEBUG 16884 --- [jobportal] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-03-31T16:36:01.060+05:30 DEBUG 16884 --- [jobportal] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-31T16:36:01.157+05:30 DEBUG 16884 --- [jobportal] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-31T16:36:02.203+05:30  INFO 16884 --- [jobportal] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-31T16:36:02.301+05:30  INFO 16884 --- [jobportal] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-31T16:36:02.319+05:30  INFO 16884 --- [jobportal] [restartedMain] com.job.jobportal.JobportalApplication   : Started JobportalApplication in 10.067 seconds (process running for 10.615)
+2025-03-31T16:36:25.435+05:30  INFO 16884 --- [jobportal] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-31T16:36:25.435+05:30  INFO 16884 --- [jobportal] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-31T16:36:25.451+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-03-31T16:36:25.451+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-03-31T16:36:25.451+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-03-31T16:36:25.451+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3704514c
+2025-03-31T16:36:25.451+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@3a19db38
+2025-03-31T16:36:25.451+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-03-31T16:36:25.451+05:30  INFO 16884 --- [jobportal] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-03-31T16:36:25.470+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2025-03-31T16:36:25.481+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-03-31T16:36:25.494+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-03-31T16:36:25.496+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource .]
+2025-03-31T16:36:25.496+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-03-31T16:36:25.512+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-03-31T16:36:25.514+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-03-31T16:36:25.547+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-03-31T16:36:25.561+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-03-31T16:36:25.699+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2025-03-31T16:36:25.699+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-03-31T16:36:25.699+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-03-31T16:36:25.699+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-03-31T16:36:25.699+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-03-31T16:36:25.714+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-03-31T16:36:25.716+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-03-31T16:36:25.729+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json]
+2025-03-31T16:36:25.729+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Mar 31 16:36:25 IST 2025, status=404, error=Not Found, trace=org.springframework.web. (truncated)...]
+2025-03-31T16:36:25.792+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-03-31T16:36:45.853+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.html", parameters={}
+2025-03-31T16:36:45.856+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-03-31T16:36:45.894+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-03-31T16:36:45.959+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui.css", parameters={}
+2025-03-31T16:36:45.959+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.css", parameters={}
+2025-03-31T16:36:45.959+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui-bundle.js", parameters={}
+2025-03-31T16:36:45.959+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-initializer.js", parameters={}
+2025-03-31T16:36:45.959+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui-standalone-preset.js", parameters={}
+2025-03-31T16:36:45.964+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-03-31T16:36:45.964+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-03-31T16:36:45.964+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-03-31T16:36:45.964+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-03-31T16:36:45.964+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-03-31T16:36:45.975+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-03-31T16:36:45.975+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-03-31T16:36:45.991+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-03-31T16:36:45.998+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-03-31T16:36:46.018+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-03-31T16:36:46.219+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs/swagger-config", parameters={}
+2025-03-31T16:36:46.219+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/favicon-32x32.png", parameters={}
+2025-03-31T16:36:46.225+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2025-03-31T16:36:46.225+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-03-31T16:36:46.225+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-03-31T16:36:46.235+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2025-03-31T16:36:46.235+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/swagger-ui/oauth2-re (truncated)...]
+2025-03-31T16:36:46.241+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-03-31T16:36:46.257+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs", parameters={}
+2025-03-31T16:36:46.257+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2025-03-31T16:36:48.425+05:30  INFO 16884 --- [jobportal] [http-nio-8080-exec-7] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 2127 ms
+2025-03-31T16:36:48.484+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+2025-03-31T16:36:48.502+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+2025-03-31T16:36:48.502+05:30 DEBUG 16884 --- [jobportal] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
